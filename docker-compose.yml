@@ -1,0 +1,10 @@
+services:
+  slash:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - slash-data:/app/data
+
+volumes:
+  slash-data:

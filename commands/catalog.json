@@ -1,0 +1,830 @@
+[
+  {
+    "name": "afk",
+    "category": "Settings",
+    "description": "Set AFK status",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "announce",
+    "category": "Security",
+    "description": "Send a staff announcement to a channel",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "archive",
+    "category": "Channels",
+    "description": "Archive this thread",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "auditchannel",
+    "category": "Audit",
+    "description": "Set audit log channel",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "automod",
+    "category": "AutoMod",
+    "description": "Toggle link/burst filter (admin)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "autorole",
+    "category": "Welcome",
+    "description": "Set automatic join role",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "avatar",
+    "category": "Info",
+    "description": "Big avatar view",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ban",
+    "category": "Bans",
+    "description": "Ban a member",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "banner",
+    "category": "Info",
+    "description": "Show a user's banner if set",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "botinfo",
+    "category": "Info",
+    "description": "About Slash",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "bstat",
+    "category": "Dev",
+    "description": "Bot stats (owner)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "case",
+    "category": "Warns",
+    "description": "Look up a mod case",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ccadd",
+    "category": "AutoMod",
+    "description": "Add custom command (admin): !name text",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ccdel",
+    "category": "AutoMod",
+    "description": "Delete custom command (admin)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "cclist",
+    "category": "AutoMod",
+    "description": "List custom commands",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "channels",
+    "category": "Info",
+    "description": "List channels",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "clearwarns",
+    "category": "Warns",
+    "description": "Clear all warnings",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "commands",
+    "category": "Info",
+    "description": "Count + list commands",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "config",
+    "category": "Settings",
+    "description": "Show guild config",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "emojis",
+    "category": "Info",
+    "description": "List custom emojis",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "giveaway",
+    "category": "Giveaways",
+    "description": "Start giveaway: minutes winners prize",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "glist",
+    "category": "Giveaways",
+    "description": "Active giveaways",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "goodbye",
+    "category": "Welcome",
+    "description": "Configure goodbye channel, message, thumbnail, and ping",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "help",
+    "category": "Info",
+    "description": "Browse commands",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "history",
+    "category": "Warns",
+    "description": "Mod history for a user",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "inviteinfo",
+    "category": "Info",
+    "description": "Show channel invite stats",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "kick",
+    "category": "Bans",
+    "description": "Kick a member",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "level",
+    "category": "Leveling",
+    "description": "Your level",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "lock",
+    "category": "Cleanup",
+    "description": "Lock channel",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "lockdown",
+    "category": "Security",
+    "description": "Lock this channel for non-staff",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "membercount",
+    "category": "Info",
+    "description": "Member stats",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "mkchannel",
+    "category": "Channels",
+    "description": "Create a text channel (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "mkvoice",
+    "category": "Channels",
+    "description": "Create a voice channel (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "modlog",
+    "category": "Security",
+    "description": "Set the moderation audit channel",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "nick",
+    "category": "Cleanup",
+    "description": "Set nickname",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "noteadd",
+    "category": "Notes",
+    "description": "Add staff note (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "notedel",
+    "category": "Notes",
+    "description": "Clear notes (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "notes",
+    "category": "Notes",
+    "description": "View staff notes (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ping",
+    "category": "Info",
+    "description": "Latency + uptime",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "poll",
+    "category": "Polls",
+    "description": "Yes/no poll",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "profile",
+    "category": "Settings",
+    "description": "Your Slash profile",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "purge",
+    "category": "Cleanup",
+    "description": "Bulk delete 1-200 messages",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "quarantine",
+    "category": "Security",
+    "description": "Remove a member's roles and isolate them",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "rank",
+    "category": "Leveling",
+    "description": "Your server rank",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "reload",
+    "category": "Dev",
+    "description": "Reload a cog (owner)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "remind",
+    "category": "AutoMod",
+    "description": "Remind in N minutes",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "rename",
+    "category": "Channels",
+    "description": "Rename this channel (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "report",
+    "category": "Polls",
+    "description": "Report a user to staff",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "reroll",
+    "category": "Giveaways",
+    "description": "Reroll a giveaway message",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "roleadd",
+    "category": "Roles",
+    "description": "Give a role",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "roledel",
+    "category": "Roles",
+    "description": "Remove a role",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "roleinfo",
+    "category": "Roles",
+    "description": "About a role",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "rolelist",
+    "category": "Roles",
+    "description": "Members with a role",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "rolemenu",
+    "category": "Roles",
+    "description": "Button role menu (up to 5 roles)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "roles",
+    "category": "Info",
+    "description": "List server roles",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "search",
+    "category": "Info",
+    "description": "Search commands by text",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "serverinfo",
+    "category": "Info",
+    "description": "Inspect this server",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "setup",
+    "category": "Settings",
+    "description": "Interactive setup walkthrough (admin)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "slowmode",
+    "category": "Cleanup",
+    "description": "Slowmode seconds (0=off)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "slowmodeall",
+    "category": "Security",
+    "description": "Apply slowmode to every text channel",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "softban",
+    "category": "Bans",
+    "description": "Ban + instant unban",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "suggest",
+    "category": "Polls",
+    "description": "Submit a suggestion",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "sync",
+    "category": "Dev",
+    "description": "Force slash resync (owner)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "task",
+    "category": "Tasks",
+    "description": "Plan a safe staff task from plain language",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "thread",
+    "category": "Channels",
+    "description": "Start a thread here",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "ticketadd",
+    "category": "Tickets",
+    "description": "Add user to ticket",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ticketclaim",
+    "category": "Tickets",
+    "description": "Claim this ticket for yourself",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ticketclose",
+    "category": "Tickets",
+    "description": "Close this ticket",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ticketlog",
+    "category": "Tickets",
+    "description": "Save recent messages as log",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ticketpanel",
+    "category": "Tickets",
+    "description": "Post ticket panel (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ticketpriority",
+    "category": "Tickets",
+    "description": "Set ticket priority in its topic",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ticketrename",
+    "category": "Tickets",
+    "description": "Rename this ticket",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "ticketunclaim",
+    "category": "Tickets",
+    "description": "Remove the current ticket claim",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "timeout",
+    "category": "Bans",
+    "description": "Timeout (minutes)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "topic",
+    "category": "Channels",
+    "description": "Set channel topic (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "unban",
+    "category": "Bans",
+    "description": "Unban by ID or name",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "unlock",
+    "category": "Cleanup",
+    "description": "Unlock channel",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "unlockdown",
+    "category": "Security",
+    "description": "Remove this channel lockdown",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "unquarantine",
+    "category": "Security",
+    "description": "Release a member from quarantine",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "untimeout",
+    "category": "Bans",
+    "description": "Lift a timeout",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "unwarn",
+    "category": "Warns",
+    "description": "Clear one warning by number",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "userinfo",
+    "category": "Info",
+    "description": "Inspect a member",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "v2demo",
+    "category": "V2Demo",
+    "description": "Show Components V2 card",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "vlock",
+    "category": "Channels",
+    "description": "Voice limit set (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": false
+  },
+  {
+    "name": "vmove",
+    "category": "Channels",
+    "description": "Move member to your voice (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "votepoll",
+    "category": "Polls",
+    "description": "Multi-option poll (up to 5, | separated)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "warn",
+    "category": "Warns",
+    "description": "Warn a member",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "warnings",
+    "category": "Warns",
+    "description": "See warnings",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "welcome",
+    "category": "Welcome",
+    "description": "Configure welcome channel, message, thumbnail, and ping",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "welcometest",
+    "category": "Welcome",
+    "description": "Preview the current welcome message",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "xpadd",
+    "category": "Leveling",
+    "description": "Give XP (mod)",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  },
+  {
+    "name": "xptop",
+    "category": "Leveling",
+    "description": "XP leaderboard",
+    "permissions": [],
+    "cooldown": 0,
+    "implemented": true,
+    "slash": true
+  }
+]

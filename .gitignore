@@ -1,0 +1,10 @@
+.env
+*.db
+__pycache__/
+*.pyc
+data/*
+logs/*
+cogs/packs/
+cogs/economy/
+cogs/fun/
+cogs/utility/
