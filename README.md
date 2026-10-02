@@ -21,3 +21,5 @@ Run `python3 scripts/quality_report.py` before release. It rejects numbered or
 generated-style commands so fake implementations cannot be shipped as features.
 
 Run: `pip install -r requirements.txt && cp .env.example .env && python bot.py`
+
+GitHub: `https://github.com/lizereride90/slash-discord-bot`
